@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #800000;
+    padding: 15px 40px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: black;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #a00000;
+    color: white;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* JUDUL MENU */
+.judul-menu {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #800000;
+    font-size: 30px;
+}
+
+/* GRID MENU */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 20px 50px 50px;
+}
+
+/* CARD */
+.card {
+    background-color: #800000;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    border: 2px solid black;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* HARGA */
+.harga {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #ffd6d6;
+}
+
+/* JUMLAH */
+.jumlah {
+    margin-bottom: 15px;
+}
+
+.jumlah input {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* BUTTON */
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #550000;
+}
